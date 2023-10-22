@@ -1,37 +1,37 @@
-#MARKETING ANALYSIS
-#Task Details
-You're a marketing analyst and you've been told by the Chief Marketing Officer that recent marketing campaigns have not been as effective as they were expected to be. You need to analyze the data set to understand this problem and propose data-driven solutions.
+# Marketing Analysis
 
-Expected Submission
-Submit a well documented notebook with these four sections:
+## Task Details
 
-* Section 01: Exploratory Data Analysis
-1. Are there any null values or outliers? How will you wrangle/handle them?
-1. Are there any variables that warrant transformations?
-1. Are there any useful variables that you can engineer with the given data?
-1. Do you notice any patterns or anomalies in the data? Can you plot them?
-* Section 02: Statistical Analysis
-Please run statistical tests in the form of regressions to answer these questions & propose data-driven action recommendations to your CMO. Make sure to interpret your results with non-statistical jargon so your CMO can understand your findings.
+As a marketing analyst, your objective is to address concerns raised by the Chief Marketing Officer (CMO) regarding the effectiveness of recent marketing campaigns. Your task is to analyze the dataset and propose data-driven solutions. Your analysis should be presented in a well-documented notebook with four main sections.
 
-1. What factors are significantly related to the number of store purchases?
-1. Does US fare significantly better than the Rest of the World in terms of total purchases?
-1. Your supervisor insists that people who buy gold are more conservative. Therefore, people who spent an above average amount on gold in the last 2 years would have more in store purchases. Justify or refute this statement using an appropriate statistical test
-1. Fish has Omega 3 fatty acids which are good for the brain. Accordingly, do "Married PhD candidates" have a significant relation with amount spent on fish? What other factors are significantly related to amount spent on fish? (Hint: use your knowledge of interaction variables/effects)
-1. Is there a significant relationship between geographical regional and success of a campaign?
-* Section 03: Data Visualization
-Please plot and visualize the answers to the below questions.
+### Section 01: Exploratory Data Analysis
+1. **Data Cleaning**: Check for null values and outliers in the dataset and describe how you plan to handle them.
+2. **Variable Transformations**: Identify any variables that require transformations to improve the analysis.
+3. **Feature Engineering**: Determine if there are any useful variables you can create from the given data.
+4. **Data Patterns and Anomalies**: Describe any patterns or anomalies in the data and provide visualizations to support your findings.
 
-1. Which marketing campaign is most successful?
-1. What does the average customer look like for this company?
-1. Which products are performing best?
-1. Which channels are underperforming?
-* Section 04: CMO Recommendations
-Bring together everything from Sections 01 to 03 and provide data-driven recommendations/suggestions to your CMO.
+### Section 02: Statistical Analysis
+1. **Factors Affecting Store Purchases**: Use regression analysis to identify factors significantly related to the number of store purchases. Provide actionable recommendations for the CMO.
+2. **US vs. Rest of the World**: Analyze whether the US performs significantly better than the rest of the world in terms of total purchases. Interpret your results in a non-technical manner.
+3. **Gold Spending vs. In-Store Purchases**: Test whether people who spent an above-average amount on gold in the last 2 years have more in-store purchases. Justify or refute this statement using an appropriate statistical test.
+4. **Married PhD Candidates and Fish Spending**: Investigate if "Married PhD candidates" have a significant relationship with the amount spent on fish. Identify other factors significantly related to fish spending.
+5. **Regional Campaign Success**: Explore whether there is a significant relationship between geographical region and the success of a marketing campaign.
 
-**Evaluation**
-This is not a formal competition, so results won't be measured using a strict metric. Rather, what one would like to see is a well-defined process of exploratory and statistical analysis with insightful conclusions.
+### Section 03: Data Visualization
+1. **Campaign Success**: Visualize which marketing campaign is the most successful.
+2. **Customer Demographics**: Create visualizations to describe the average customer's characteristics.
+3. **Product Performance**: Visualize which products are performing the best.
+4. **Underperforming Channels**: Use visualizations to identify which marketing channels are underperforming.
 
-1. Data Exploration - Was the data wrangled properly? How well was the data analyzed? Are there any useful visualizations? Does the reader learn any new techniques through this submission? A great entry will be informative and thought provoking.
-1. Statistical Analysis - Were the right statistical tests used? How well was the statistical output interpreted? A great entry will interpret results without the use of any statistical jargon.
-1. Business Recommendation - Were the recommendations tied to your analysis in Sections 1-3? Are they data-driven and focused on marketing concepts such as targets, channels, or products?
-1. Documentation - Are your code, and notebook well documented so a reader can understand what you did? Are your sources clearly cited? A high quality analysis should be concise and clear at each step so the rationale is easy to follow and the process is reproducible.
+### Section 04: CMO Recommendations
+Summarize your findings from Sections 01 to 03 and provide data-driven recommendations to the CMO based on your analysis. Ensure that your recommendations are actionable and aligned with marketing concepts such as targets, channels, or products.
+
+## Evaluation
+Your analysis will be evaluated based on the following criteria:
+
+1. **Data Exploration**: Was the data properly cleaned and analyzed? Were there useful visualizations? Does the reader learn new techniques from your submission?
+2. **Statistical Analysis**: Did you use the appropriate statistical tests, and were the results interpreted in a non-technical manner?
+3. **Business Recommendations**: Are the recommendations based on your analysis in Sections 1-3? Are they data-driven and relevant to marketing concepts?
+4. **Documentation**: Is your code and notebook well-documented? Are your sources cited clearly? The analysis should be concise and easy to follow for reproducibility.
+
+Please ensure that your notebook is well-organized, and your analysis is clear and informative.
